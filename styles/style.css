@@ -14,7 +14,7 @@
   .header {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid steelblue;
     align-items: center;
     background-color: #679a34;
@@ -41,6 +41,11 @@
   }
   .operaciones img{
     width: 20%;
+  }
+  .operaciones figcaption{
+    font-weight: 500;
+    color:white;
+    font-family:'Courier New', Courier, monospace;  
   }
 
   .content h1{
@@ -100,13 +105,13 @@
   }
   .figure h2 {
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: white;
   }
   .figure-images {
     display:grid;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
     justify-content: center;
     margin: 0 auto;
   }
@@ -117,8 +122,8 @@
   }
   .footer {
     display: flex;
-    height: 100px;
-    padding: 20px;
+    height: 70px;
+    padding: 10px;
     border: 1px solid rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
